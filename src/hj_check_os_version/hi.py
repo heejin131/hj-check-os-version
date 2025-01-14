@@ -32,8 +32,6 @@ art = """
 
 """
 
-def hi():
-    print(art)
 
 import random
 from check_os_ver.hi import hi as hi1
@@ -45,11 +43,11 @@ from nunininu_check_os_ver.hi import hi as hi6
 from seo_check_os_version.hi import hi as hi7
 from ppabam_check_os_ver.hi import hi as hi8
 
-def random_pic(arts_list):
-    pick_hi = random.choice(arts_list)
-    return pick_hi
+def hi():
+    return(art)
 
-arts_list = [hi1, hi2, hi3, hi4, hi5, hi6, hi7, hi8]
+def random_pic():
+    arts_list = [hi1, hi2, hi3, hi4, hi5, hi6, hi7, hi8]
+    pick_hi = random.choice(arts_list)()
+    return(pick_hi)
 
-a = random_pic(arts_list)
-a()
