@@ -37,12 +37,12 @@ def hi():
 
 import random
 from check_os_ver.hi import hi as hi1
-from cho_check_os_ver.hi import as hi2
+from cho_check_os_ver.hi import hi as hi2
 from jacob_os_version_check.hi import hi as hi3
 from lucas_check_os_ver.hi import hi as hi4
 from stundrg_check_os_ver.hi import hi as hi5
 from nunininu_check_os_ver.hi import hi as hi6
-from seo-check-os-version.hi import hi as hi7
+from seo_check_os_version.hi import hi as hi7
 from ppabam_check_os_ver.hi import hi as hi8
 
 def random_pic(arts_list):
@@ -52,5 +52,4 @@ def random_pic(arts_list):
 arts_list = [hi1, hi2, hi3, hi4, hi5, hi6, hi7, hi8]
 
 a = random_pic(arts_list)
-print(a)
-
+a()
