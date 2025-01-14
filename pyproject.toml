@@ -17,3 +17,10 @@ build-backend = "pdm.backend"
 
 [tool.pdm]
 distribution = true
+
+[project.urls]
+Homepage = "https://github.com/heejin131/hhj-check-os-version"
+Issues = "https://github.com/heejin131/hj-check-os-version/issues"
+
+[project.scripts]
+heejin-hi = "hj_check_os-ver.hi:hi"   
