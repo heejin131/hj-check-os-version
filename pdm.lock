@@ -34,7 +34,7 @@ files = [
 
 [[package]]
 name = "cho-check-os-ver"
-version = "0.3.7"
+version = "0.3.8.1"
 requires_python = ">=3.10"
 summary = "Default template for PDM package"
 groups = ["default"]
@@ -48,8 +48,8 @@ dependencies = [
     "stundrg-check-os-ver>=0.2.3",
 ]
 files = [
-    {file = "cho_check_os_ver-0.3.7-py3-none-any.whl", hash = "sha256:1d8134ad8089b751f7a106f48fd81c0c5dd4b9d27958e4f0cd10f7046e712795"},
-    {file = "cho_check_os_ver-0.3.7.tar.gz", hash = "sha256:878d93c5e6f63e8dfce42ba9d4ba273863102fe695529032a963b58a3b03eb7f"},
+    {file = "cho_check_os_ver-0.3.8.1-py3-none-any.whl", hash = "sha256:9d206029f4501c5105ae72d136a929850ee2fdb7ddbd5cc5099b26ba8264e6c4"},
+    {file = "cho_check_os_ver-0.3.8.1.tar.gz", hash = "sha256:2cc0cf29f25d093614ce67fcd190f4f295e8aa59e675980d01a7e82d93c5c97e"},
 ]
 
 [[package]]
@@ -74,7 +74,7 @@ files = [
 
 [[package]]
 name = "lucas-check-os-ver"
-version = "0.3.4"
+version = "0.3.5"
 requires_python = ">=3.10"
 summary = "Detects and outputs the os version"
 groups = ["default"]
@@ -89,8 +89,8 @@ dependencies = [
     "stundrg-check-os-ver>=0.2.3",
 ]
 files = [
-    {file = "lucas_check_os_ver-0.3.4-py3-none-any.whl", hash = "sha256:d70fdd850b4d8c08ceb5189837952a1c099bfd4ae8167fab4375ee26206f74eb"},
-    {file = "lucas_check_os_ver-0.3.4.tar.gz", hash = "sha256:9b27678c891b2af6a07e8e80f528fb9bf362cbe3e52f3ed0a27636fdf8c7cf2e"},
+    {file = "lucas_check_os_ver-0.3.5-py3-none-any.whl", hash = "sha256:71fc1d902e84a3449d080766ba79c3da8d41f18a26cd92d64badf1d6d3331ea8"},
+    {file = "lucas_check_os_ver-0.3.5.tar.gz", hash = "sha256:2c48c8cd91d81abe67c9133753b69eb92f4b4a4f1cd0764047324999d493b0ed"},
 ]
 
 [[package]]
