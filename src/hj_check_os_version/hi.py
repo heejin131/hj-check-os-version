@@ -37,4 +37,3 @@ def hi():
 
 def random_pic():
     print("HI");
-
