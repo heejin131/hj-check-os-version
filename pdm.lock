@@ -34,7 +34,7 @@ files = [
 
 [[package]]
 name = "cho-check-os-ver"
-version = "0.3.8.1"
+version = "0.3.8.4"
 requires_python = ">=3.10"
 summary = "Default template for PDM package"
 groups = ["default"]
@@ -48,8 +48,8 @@ dependencies = [
     "stundrg-check-os-ver>=0.2.3",
 ]
 files = [
-    {file = "cho_check_os_ver-0.3.8.1-py3-none-any.whl", hash = "sha256:9d206029f4501c5105ae72d136a929850ee2fdb7ddbd5cc5099b26ba8264e6c4"},
-    {file = "cho_check_os_ver-0.3.8.1.tar.gz", hash = "sha256:2cc0cf29f25d093614ce67fcd190f4f295e8aa59e675980d01a7e82d93c5c97e"},
+    {file = "cho_check_os_ver-0.3.8.4-py3-none-any.whl", hash = "sha256:acd5fab75fcbbbb5ffb107f1e3acfce793e8d6725a415c0d91f643c84bbc0605"},
+    {file = "cho_check_os_ver-0.3.8.4.tar.gz", hash = "sha256:ca4e02eb041e9962e8a3f849569446eb6a3e4f0f15cee5bf5a24b923defa2163"},
 ]
 
 [[package]]
@@ -95,7 +95,7 @@ files = [
 
 [[package]]
 name = "nunininu-check-os-ver"
-version = "0.3.3"
+version = "0.3.3.1"
 requires_python = ">=3.10"
 summary = "Default template for PDM package"
 groups = ["default"]
@@ -109,8 +109,8 @@ dependencies = [
     "stundrg-check-os-ver>=0.2.3",
 ]
 files = [
-    {file = "nunininu_check_os_ver-0.3.3-py3-none-any.whl", hash = "sha256:44b6bdedb710483bc9d3e46c615cce813dc8298796e1dba1152da4cd8ad57cf0"},
-    {file = "nunininu_check_os_ver-0.3.3.tar.gz", hash = "sha256:5ec4a2a12dfa5ed169d244f6c18cd8689d851ed4720fe058e3ff54f15be8598d"},
+    {file = "nunininu_check_os_ver-0.3.3.1-py3-none-any.whl", hash = "sha256:a3492444ec48f48b888875e274fa9ed2d0e342af3482d8ae93b623d491e4e006"},
+    {file = "nunininu_check_os_ver-0.3.3.1.tar.gz", hash = "sha256:5e28731ea67ba030d6ed2c9582627670e1610744ce733dbe87689773bc71c6de"},
 ]
 
 [[package]]
@@ -147,20 +147,20 @@ files = [
 
 [[package]]
 name = "stundrg-check-os-ver"
-version = "0.3.1"
+version = "0.3.3"
 requires_python = ">=3.10"
 summary = "Utility that checks the name and version of the operating system."
 groups = ["default"]
 dependencies = [
     "check-os-ver>=0.2.1",
     "cho-check-os-ver>=0.2.3",
-    "hj-check-os-version>=0.2.1",
+    "hj-check-os-version>=0.3.4",
     "jacob-os-version-check>=0.2.4",
     "lucas-check-os-ver>=0.2.1",
     "nunininu-check-os-ver>=0.3.0",
     "seo-check-os-version>=0.2.0",
 ]
 files = [
-    {file = "stundrg_check_os_ver-0.3.1-py3-none-any.whl", hash = "sha256:49e655feea73e9172d6bb8f6ae62557b220975d4dc5aa2aa75ea5bfe34f2dd8b"},
-    {file = "stundrg_check_os_ver-0.3.1.tar.gz", hash = "sha256:6918db8904cc0a25a4051317a559a66f6c3569d85f9985a713e2a650d85c0652"},
+    {file = "stundrg_check_os_ver-0.3.3-py3-none-any.whl", hash = "sha256:e2ce048ffb51eb867783f9cf6e6d1fb24edb1f626e17dbcecb7e1d24f693d66f"},
+    {file = "stundrg_check_os_ver-0.3.3.tar.gz", hash = "sha256:7ff5ed953975c1b813a26d57c0545581220897b0dfe6e9c909023aae09dd8968"},
 ]
