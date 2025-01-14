@@ -1,5 +1,6 @@
 [project]
 name = "hj-check-os-version"
+
 version = "0.3.0"
 description = "Default template for PDM package"
 authors = [
@@ -25,3 +26,4 @@ Issues = "https://github.com/heejin131/hj-check-os-version/issues"
 [project.scripts]
 heejin-hi = "hj_check_os-ver.hi:hi"   
 heejin-random = "hj_check_os-ver.hi:random_pic"
+
