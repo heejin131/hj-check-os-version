@@ -28,3 +28,8 @@ heejin-random-pic = "hj_check_os_version.hi:random_pic"
 heejin-random-game = "hj_check_os_version.hi:random_game"
 heejin-random-match = "hj_check_os_version.hi:random_match"
 heejin-os-ver = "hj_check_os_version.osver:get_os_pretty_name"
+
+[dependency-groups]
+test = [
+    "pytest>=8.3.4",
+]
