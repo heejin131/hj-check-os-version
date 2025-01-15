@@ -1,7 +1,7 @@
 [project]
 name = "hj-check-os-version"
 
-version = "0.3.7"
+version = "0.4.1"
 description = "Default template for PDM package"
 authors = [
     {name = "heejin131", email = "journeyjean131@gmail.com"},
@@ -24,5 +24,12 @@ Issues = "https://github.com/heejin131/hj-check-os-version/issues"
 
 [project.scripts]
 heejin-hi = "hj_check_os_version.hi:hi"   
-heejin-random = "hj_check_os_version.hi:random_pic"
+heejin-random-pic = "hj_check_os_version.hi:random_pic"
+heejin-random-game = "hj_check_os_version.hi:random_game"
+heejin-random-match = "hj_check_os_version.hi:random_match"
+heejin-os-ver = "hj_check_os_version.osver:get_os_pretty_name"
 
+[dependency-groups]
+test = [
+    "pytest>=8.3.4",
+]
