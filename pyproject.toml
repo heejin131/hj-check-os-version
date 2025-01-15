@@ -1,7 +1,7 @@
 [project]
 name = "hj-check-os-version"
 
-version = "0.4.0"
+version = "0.4.1"
 description = "Default template for PDM package"
 authors = [
     {name = "heejin131", email = "journeyjean131@gmail.com"},
